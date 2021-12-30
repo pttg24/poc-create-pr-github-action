@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - 'documentation/*'
-    branches-ignore:
-      - main
 jobs:
   auto-pull-request:
     name: PullRequestAction
